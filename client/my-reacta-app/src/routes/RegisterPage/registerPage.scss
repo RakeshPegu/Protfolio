@@ -1,0 +1,61 @@
+.registerPage {
+    background: rgb(56, 195, 246);
+    height: 100vh;
+    position: relative;
+    .wrapper{       
+        height: 400px;
+        width: 400px;
+        position: absolute;       
+        background-color: rgb(19, 92, 96);
+        margin-left: 520px;
+        margin-top: 150px;
+        border-radius: 15px;
+        box-shadow: 10px 10px rgb(125, 124, 124);
+        text-align: center;
+        h2{
+            font-size: 2em;
+            font-weight: 400;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: wheat;
+
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 25px;
+            margin-top: 30px;
+                      
+          
+           
+            input{
+                padding: 10px;
+                text-align: center;
+                font-size: large;
+                font-weight: 500;
+                border-radius: 5px;
+                font-style: oblique;
+                border:none;
+              
+                
+            }
+            button{
+                padding: 10px;
+                width:auto;
+                background-color: aquamarine;
+                border: none;
+                border-radius: 10px;
+                font-size: large;
+                font-weight: 500;
+                &:hover{
+                    background-color: aqua;
+                    box-shadow: 5px 5px rgb(49, 48, 48);
+                }
+            }
+        }
+        
+      
+        
+
+    }
+}

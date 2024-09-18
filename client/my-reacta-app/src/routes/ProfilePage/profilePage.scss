@@ -1,0 +1,106 @@
+.profilePage{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    
+        .wrapper{
+            margin-top: 100px;
+            background-color: rgb(128, 125, 122);
+            position: absolute;
+            display: flex;
+            width: 95%;
+            height: 70vh;
+           
+
+               
+
+        
+
+
+        .imgContainer{
+            flex: 3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgb(145, 230, 232);
+         
+            img{
+                width:600px;
+                border-radius: 100%;
+            }
+        }
+       .text{
+        flex: 3;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+       
+      
+        .content{
+            padding: 20px 20px;
+            background-color: white;
+            width:80%;
+            height: 200px;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            font-size: 1.2em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+
+
+        }
+        .btn{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 10px;
+            
+            gap: 200px;
+            
+            width: 80%;
+            padding: 20px 10px;
+        
+       
+            
+            
+            .logout{
+                
+                background-color: rgb(13, 198, 198);
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+               
+                border:none;
+                &:hover{
+                    background-color: aqua;
+                    box-shadow: 5px 5px rgb(55, 54, 54);
+                }
+            }
+            .update{
+                background-color: rgb(13, 198, 198);
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border:none;
+                &:hover{
+                    background-color: aqua;
+                    box-shadow: 5px 5px rgb(55, 54, 54);
+                }
+
+            }
+
+        }
+       }
+      
+
+
+    }
+}

@@ -1,0 +1,38 @@
+.contactPage {
+    background-color: rgb(225, 228, 226);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+    .wrapper {
+      .textContainer {
+      
+        h2 {
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 2em;
+          color: rgb(18, 131, 218);
+          background-color: aqua;
+          text-align: center;
+        }
+  
+        .icon {
+          display: flex;
+          justify-content: space-evenly;
+          background-color: aqua;
+          width: 500px;
+          padding: 20px;
+          margin-top: 200px;
+          a{
+            background-color: orange;
+            padding: 20px;
+          }
+        }
+      }
+  
+      .imgContainer {
+        /* Empty for now */
+      }
+    }
+  }
+  
